@@ -1,2 +1,4 @@
 .pioenvs
 .piolibdeps
+platformio.ini
+platformio.sublime-workspace
