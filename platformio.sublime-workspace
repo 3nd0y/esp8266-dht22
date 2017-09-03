@@ -1,0 +1,675 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"Ap",
+				"ApiMqtt.aclRule('endoy','topic1',true,true"
+			],
+			[
+				"Api",
+				"ApiMqtt.queryAcl"
+			],
+			[
+				"exis",
+				"exists"
+			],
+			[
+				"does",
+				"doesn\\'t"
+			],
+			[
+				"consol",
+				"console.log\t(app.js)"
+			],
+			[
+				"ApiMqtt",
+				"ApiMqtt.queryUser"
+			],
+			[
+				"que",
+				"queryAcl\t(api-mqtt.js)"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"ac",
+				"aclRule\t(api-mqtt.js)"
+			],
+			[
+				"de",
+				"delete\t(api-mqtt.js)"
+			],
+			[
+				"qu",
+				"queryUser\t(api-mqtt.js)"
+			],
+			[
+				"we",
+				"write"
+			],
+			[
+				"re",
+				"require\t(app.js)"
+			],
+			[
+				"opt",
+				"optionAclUpdate"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"cook",
+				"cookie"
+			],
+			[
+				"use",
+				"username\t(tesmqtt.js)"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"inse",
+				"insertDocuments"
+			],
+			[
+				"time",
+				"timeSeries"
+			],
+			[
+				"mqtt",
+				"mqttdb"
+			],
+			[
+				"console",
+				"console.log\t(users.js)"
+			],
+			[
+				"local",
+				"localhost\t(server.js)"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"dashb",
+				"dashboardAuthenticated"
+			],
+			[
+				"auth",
+				"authenticated\t(users.js)"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"err",
+				"error_msg\t(server.js)"
+			],
+			[
+				"call",
+				"callBack"
+			],
+			[
+				"get",
+				"getUserByUsername\t(users.js)"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"Use",
+				"Username"
+			],
+			[
+				"passport",
+				"passport-local\t(server.js)"
+			],
+			[
+				"sus",
+				"success_msg"
+			],
+			[
+				"requ",
+				"require"
+			],
+			[
+				"pass",
+				"password\t(users.js)"
+			],
+			[
+				"connec",
+				"connection\t(server.js)"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"conso",
+				"console.log();"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"expre",
+				"express"
+			],
+			[
+				"succ",
+				"success_msg"
+			],
+			[
+				"exp",
+				"exphbs"
+			],
+			[
+				"exprer",
+				"express-handlebars\t(package.json)"
+			],
+			[
+				"body",
+				"body-parser\t(package.json)"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sub",
+				"submit〔function〕"
+			],
+			[
+				"bottom",
+				"bottom-right\t(bootstrap.css)"
+			],
+			[
+				"zoom",
+				"zoomControl"
+			],
+			[
+				"zoo",
+				"zoomControl"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"flo",
+				"floatingRectangle"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"main",
+				"main-menu\t(index.html)"
+			],
+			[
+				"node",
+				"node_modules"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"p",
+				"popup"
+			],
+			[
+				"set",
+				"setLatLng"
+			],
+			[
+				"marker",
+				"marker1"
+			],
+			[
+				"a",
+				"accessToken"
+			],
+			[
+				"ran",
+				"random_var_array"
+			],
+			[
+				"temp",
+				"temp_rand"
+			],
+			[
+				"s",
+				"stylesheet"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"delay",
+				"delay_serial"
+			],
+			[
+				"esp_",
+				"esp_flag"
+			],
+			[
+				"now",
+				"now"
+			],
+			[
+				"Ser",
+				"Serial"
+			],
+			[
+				"data",
+				"data_masuk"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"mai",
+				"main_menu"
+			],
+			[
+				"pars",
+				"parsing"
+			],
+			[
+				"clea",
+				"clear"
+			],
+			[
+				"clear",
+				"clear_lcd_1"
+			],
+			[
+				"print",
+				"println"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package re",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"javatar",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"platformio platform update --only-check",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/FDL/Project/Temperature_Monitoring/temperature_monitoring/temperature_monitoring.ino",
+		"/D/Documents/Arduino/libraries/NewliquidCrystal/LCD.h",
+		"/D/Documents/Arduino/libraries/NewliquidCrystal/LiquidCrystal_I2C.h",
+		"/D/Documents/Arduino/libraries/DHT_sensor_library/DHT.h",
+		"/D/Documents/Arduino/libraries/DHT_sensor_library/DHT.cpp",
+		"/D/Github/mongo/node_modules/node-stl/index.js",
+		"/D/Github/mongo/req_flash.js",
+		"/D/Github/mongo/slice-report.js",
+		"/D/Github/mongo/package.json",
+		"/D/Github/mongo/node_modules/mongodb/README.md",
+		"/D/TestLua/NodeJS/server/freeboard/css/freeboard.css",
+		"/D/Github/mongo/node_modules/body-parser/README.md",
+		"/D/Documents/SLB/Commentary_Task_Assessment_Imran_23-06-17.xls",
+		"/D/Github/NavBarSide/Gruntfile.js",
+		"/D/Github/NavBarSide/gulpfile.js",
+		"/D/FDL/Tello/tello-bdg/tello-bdg.sublime-project",
+		"/D/FDL/Tello/tello-bdg/server.js",
+		"/D/Github/tello-apps/package.json",
+		"/D/FDL/Tello/tello-bdg/vendor/freeboard/server_final.js",
+		"/D/FDL/Tello/tello-bdg/node_modules/connect-flash/lib/flash.js",
+		"/D/FDL/Tello/tello-bdg/routes/index.js",
+		"/D/FDL/Tello/tello-bdg/routes/users.js",
+		"/D/FDL/Tello/tello-bdg/models/users.js",
+		"/D/FDL/Tello/tello-bdg/vendor/freeboard/js/freeboard/plugins/plugin_node.js",
+		"/D/TestLua/NodeJS/bower_components/chartist/README.md",
+		"/D/FDL/Tello/tello-bdg/vendor/freeboard/index.html",
+		"/D/FDL/Tello/tello-bdg/node_modules/connect-flash/lib/index.js",
+		"/D/FDL/Tello/tello-bdg/vendor/freeboard/js/freeboard/plugins/freeboard-c3.js",
+		"/D/FDL/Tello/tello-bdg/views/login.handlebars",
+		"/D/FDL/Tello/tello-bdg/vendor/freeboard/js/freeboard.thirdparty.js",
+		"/D/FDL/Tello/tello-bdg/landing-page/gulpfile.js",
+		"/D/FDL/Tello/tello-bdg/landing-page/package.json",
+		"/D/FDL/Tello/tello-bdg/landing-page/index.html",
+		"/D/FDL/Tello/tello-bdg/landing-page/mail/contact_me.php",
+		"/D/FDL/Tello/tello-bdg/views/layouts/layout.handlebars",
+		"/D/FDL/Tello/tello-bdg/views/index.handlebars",
+		"/D/Github/deploy-express-with-mongoose-on-heroku/server.js",
+		"/D/FDL/Tello/tello-bdg/freeboard/index.html",
+		"/D/FDL/Tello/tello-bdg/views/register.handlebars",
+		"/D/FDL/Tello/tello-bdg/public/tes.html",
+		"/D/FDL/Tello/tello-bdg/public/css/login.css",
+		"/D/FDL/Tello/tello-bdg/public/js/modal.js",
+		"/C/Users/FMukhtarif/AppData/Local/Temp/wz91b8/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/D/FDL/Tello/tello-bdg/public/style.css",
+		"/D/FDL/Tello/tello-bdg/public/login.css",
+		"/D/FDL/Tello/tello-bdg/package.json",
+		"/D/FDL/Tello/tello-bdg/landing-page/login.html",
+		"/D/FDL/Tello/tello-bdg/landing-page/css/login.css",
+		"/D/FDL/Tello/tello-bdg/landing-page/register.html",
+		"/D/FDL/Tello/tello-bdg/landing-page/js/login.js",
+		"/D/FDL/Tello/single_chan_pkt_fwd/main.cpp",
+		"/D/FDL/inLABS/startbootstrap-landing-page-gh-pages/font-awesome/css/font-awesome.css",
+		"/D/FDL/inLABS/startbootstrap-landing-page-gh-pages/css/landing-page.css",
+		"/D/FDL/inLABS/startbootstrap-landing-page-gh-pages/index.html",
+		"/D/webserver/chat-socketio.html",
+		"/D/Github/node-js-getting-started/index.js",
+		"/D/webserver/chat.js",
+		"/D/TestLua/NodeJS/server/freeboard/server_final.js",
+		"/D/TestLua/NodeJS/server/freeboard/js/freeboard/plugins/plugin_node.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/express.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/router/route.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/router/index.js",
+		"/D/Github/node-js-getting-started/node_modules/express/index.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/router/layer.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/middleware/query.js",
+		"/D/Github/node-js-getting-started/node_modules/express/lib/middleware/init.js",
+		"/D/Github/node-js-getting-started/node_modules/serve-static/index.js",
+		"/D/Github/node-js-getting-started/node_modules/ejs/package.json",
+		"/D/TestLua/python/mqtt_temperature.py",
+		"/D/Github/chatApps/index.html",
+		"/D/TestLua/NodeJS/server/freeboard/index.html",
+		"/D/Documents/GitHub/curl-7.54.0/winbuild/Makefile.vc",
+		"/D/Documents/GitHub/curl-7.54.0/lib/file.c",
+		"/D/Github/chatApps/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/D/TestLua/NodeJS/server/server.js",
+		"/D/TestLua/NodeJS/nodejs-mongo-mqtt.js",
+		"/D/FDL/Tello/python/mqtt_temperature.py",
+		"/D/webserver/js/c3-0.4.11/htdocs/samples/simple.html",
+		"/D/webserver/testApp/app.js",
+		"/D/webserver/testApp/routes/users.js",
+		"/D/webserver/testApp/routes/index.js",
+		"/D/webserver/chat-websocket.html",
+		"/D/FDL/Project/GIS/index.html",
+		"/D/Github/tello-bdg/server.js",
+		"/D/webserver/index.html",
+		"/D/Github/chatApps/node_modules/bootstrap/dist/js/bootstrap.js",
+		"/D/Github/chatApps/tes.html",
+		"/D/Github/tello-bdg/node_modules/bootstrap/node_modules/jquery/package.json",
+		"/D/Github/tello-bdg/node_modules/socket.io/Readme.md",
+		"/D/Github/tello-bdg/server2.js",
+		"/D/FDL/Project/GIS/index1.html",
+		"/C/Users/FMukhtarif/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/FMukhtarif/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/FDL/Project/GIS/node_modules/leaflet/build/publish.sh",
+		"/D/FDL/Tello/python/mqtt_humidity.py",
+		"/D/FDL/Tello/python/mqtt_kwh.py",
+		"/D/Github/node-js-getting-started/Procfile",
+		"/D/Github/node-js-getting-started/views/pages/db.ejs",
+		"/D/Github/node-js-getting-started/views/pages/index.ejs",
+		"/D/TestLua/NodeJS/server/freeboard/test_d3_chart.json",
+		"/D/FDL/Tello/python/mqtt_d3_chart.py",
+		"/D/Github/node-js-getting-started/package.json",
+		"/D/TestLua/NodeJS/server/freeboard/index-dev.html",
+		"/D/TestLua/NodeJS/server/freeboard/test_d3_chart_1.json",
+		"/D/Documents/Arduino/EthernetTest/src/EthernetTest.ino",
+		"/D/Documents/Arduino/libraries/ethercard/EtherCard.h",
+		"/D/FDL/Tello/python/mqtt_compass.py",
+		"/D/FDL/Tello/server/freeboard/server_final.js",
+		"/D/FDL/Tello/server/freeboard/server.suskes.js",
+		"/D/webserver/bower_components/bootstrap/dist/css/bootstrap-theme.css",
+		"/D/webserver/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/D/TestLua/NodeJS/server/freeboard/plugin_node_sample_client.html",
+		"/D/webserver/canvas7.html",
+		"/D/webserver/canvas6.html",
+		"/D/webserver/canvas5.html",
+		"/D/webserver/canvas4.html",
+		"/D/webserver/canvas3.html",
+		"/D/webserver/canvas2.html",
+		"/D/webserver/canvas1.html",
+		"/D/TestLua/NodeJS/tes_mqtt.js",
+		"/C/Users/FMukhtarif/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/Documents/Arduino/libraries/ethercard/docu.dox",
+		"/D/Documents/Arduino/EthernetTest/EthernetTest.ino",
+		"/D/Documents/Java/javaGui/src/main.java",
+		"/D/Documents/Java/tes/src/javatar/simple/demo/JavaGui.java",
+		"/D/Documents/Java/javaGui/src/components/main.java",
+		"/D/Documents/Java/javaGui/src/components/MenuLookDemo.java",
+		"/D/Documents/Java/tes/src/javatar/simple/demo/javatar/simple/demo/JavaGui.java"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"no such",
+			"_parseSTLBinary",
+			"volume",
+			".gridster .gs_w",
+			"save-freeboard-alt",
+			"data-bind",
+			"get",
+			"user",
+			"alert",
+			"msg",
+			"envelope",
+			"mail",
+			"gmail",
+			"mail",
+			"fa-twitter",
+			"intro-soc",
+			"intro",
+			"proto",
+			"prototype",
+			"rooms",
+			"events",
+			"navbar",
+			"starter-template",
+			"starter-templatestarter-template",
+			"dropdown",
+			"class Ethernet",
+			"class Buffer",
+			"buffer",
+			" ",
+			"cek",
+			"ok",
+			"prev",
+			"esp8266_exist",
+			"__attribute__",
+			"initVariant",
+			"clear_lcd()",
+			"clear_lcd",
+			"(\"\");",
+			"read"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"lcd.clear()"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "platformio.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

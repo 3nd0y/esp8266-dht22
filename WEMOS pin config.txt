@@ -1,0 +1,12 @@
+--config esp-12
+TX = 10
+RX = 9
+D1 = 1 --GPIO5
+D2 = 2 --GPIO4
+D3 = 3 --GPIO0
+D4 = 4 --GPIO2
+D0 = 0 --GPIO16
+D5 = 5 --GPIO14
+D6 = 6 --GPIO12
+D7 = 7 --GPIO13
+D8 = 8 --GPIO15
