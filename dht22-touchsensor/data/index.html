@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=380">
+  <title>WiFi Login</title>
+  <style media="screen" type="text/css">
+    *{margin:0;padding:0}
+    html{height:100%;background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,100,.5)),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA8AgMAAACm+SSwAAAADFBMVEVBR1FFS1VHTlg8Q0zU/YXIAAADVElEQVQ4yy1TTYvTUBQ9GTKiYNoodsCF4MK6U4TZChOhiguFWHyBFzqlLl4hoeNvEBeCrlrhBVKq1EUKLTP+hvi1GyguXqBdiZCBzGqg20K8L3hDQnK55+OeJNguHx6UujYl3dL5ALn4JOIUluAqeAWciyGaSdvngOWzNT+G0UyGUOxVOAdqkjXDCbBiUyjZ5QzYEbGadYAi6kHxth+kthXNVNCDofwhGv1D4QGGiM9iAjbCHgr2iUUpDJbs+VPQ4xAr2fX7KXbkOJMdok965Ksb+6lrjdkem8AshIuHm9Nyu19uTunYlOXDTQqi8VgeH0kBXH2xq/ouiMZPzuMukymutrBmulUTovC6HqNFW2ZOiqlpSXZOTvSUeUPxChjxol8BLbRy4gJuhV7OR4LRVBs3WQ9VVAU7SXgK2HeUrOj7bC8YsUgr3lEV/TXB7hK90EBnxaeg1Ov15bY80M736ekCGesGAaGvG0Ct4WRkVQVHIgIM9xJgvSFfPay8Q6GNv7VpR7xUnkvhnMQCJDYkYOtNLihV70tCU1Sk+BQrpoP+HLHUrJkuta40C6LP5GvBv+Hqo10ATxxFrTPvNdPr7XwgQud6RvQN/sXjBGzqbU27wcj9cgsyvSTrpyXV8gKpXeNJU3aFl7MOdldzV4+HfO19jBa5f2IjWwx1OLHIvFHkqbBj20ro1g7nDfY1DpScvDRUNARgjMMVO0zoMjKxJ6uWCPP+YRAWbGoaN8kXYHmLjB9FXLGOazfFVCvOgqzfnicNPrHtPKlex2ye824gMza0cTZ2sS2Xm7Qst/UfFw8O6vVtmUKxZy9xFgzMys5cJ5fxZw4y37Ufk1Dsfb8MqOjYxE3ZMWxiDcO0PYUaD2ys+8OW1pbB7/e3sfZeGVCL0Q2aMjjPdm2sxADuejZxHJAd8dO9DSUdA0V8/NggRRanDkBrANn8yHlEQOn/MmwoQfQF7xgmKDnv520bS/pgylP67vf3y2V5sCwfoCEMkZClgOfJAFX9eXefR2RpnmRs4CDVPceaRfoFzCkJVJX27vWZnoqyvmtXU3+dW1EIXIu8Qg5Qta4Zlv7drUCoWe8/8MXzaEwux7ESE9h6qnHj3mIO0/D9RvzfxPmjWiQ1vbeSk4rrHwhAre35EEVaAAAAAElFTkSuQmCC)}
+    body{font-family:'lucida sans', verdana}
+    div{position:absolute;margin:auto;top:-100px;right:0;bottom:0;left:0;width:320px;height:304px}
+    form{width:320px;text-align:center;position:relative}
+    form fieldset{background:#fff;border:0 none;border-radius:5px;box-shadow:0 0 15px 1px rgba(0,0,0,.4);padding:20px 30px;box-sizing:border-box}
+    form input{padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:10px;width:100%;box-sizing:border-box;font-family:tahoma;color:#2C3E50;font-size:13px}
+    form select{padding:10px;border:1px solid #ccc;border-radius:5px;margin-bottom:10px;width:100%;box-sizing:border-box;font-family:tahoma;color:#2C3E50;font-size:13px}
+	form .action-button{border:0 none;border-radius:3px;cursor:pointer;}
+    #msform .submit:focus,form .action-button:hover{box-shadow:0 0 0 2px #fff,0 0 0 3px #27AE60;}
+    #formFrame{display: none;}
+    #aplist{display: block;}
+    select{width:100%;margin-bottom: 20px;padding: 10px 5px; border:1px solid #ccc;display:none;}
+    .fs-title{font-size:15px;text-transform:uppercase;color:#2C3E50;margin-bottom:10px}
+    .fs-subtitle{font-weight:400;font-size:13px;color:#666;margin-bottom:20px}
+    .fs-status{font-weight:400;font-size:13px;color:#666;margin-bottom:10px;padding-top:20px; border-top:1px solid #ccc}
+    .submit{width:100px;background: #27AE60; color: #fff;font-weight:700;margin:10px 5px; padding: 10px 5px; font-family:'lucida sans';}
+	.form-control:focus {
+		border-color: #66afe9;
+		outline: 0;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+	}
+  </style>
+</head>
+<body>
+  <script>
+  
+  </script>
+  <div>
+    <form id="credentialsForm" method="get" action="/update" target="formFrame">
+      <fieldset>
+        <iframe id="formFrame" src="" name="formFrame"></iframe> <!-- Used to submit data, needed to prevent re-direction after submission -->
+        <h2 class="fs-title">WiFi Login</h2>
+        <h3 class="fs-subtitle">Connect gadget to your WiFi network</h3>
+        <select id="aplist" name="ssid" size="1" class="form-control" autofocus>
+          <option>Akita 2</option>
+		  <option>Nexus 5</option>
+        </select>
+        <input name="pass" placeholder="Password" type="password" class="form-control">
+		<br><br>
+		<input name="mqtt_host" placeholder="MQTT Host address e.g 192.168.0.1" type="text" class="form-control">
+		<input name="mqtt_uname" placeholder="MQTT User Name" type="text" class="form-control">
+		<input name="mqtt_pass" placeholder="MQTT Password" type="password" class="form-control">
+        <input type=submit name=save class="action-button submit" value="Save">
+      </fieldset>
+    </form>
+  </div>  
+</body>
+</html>

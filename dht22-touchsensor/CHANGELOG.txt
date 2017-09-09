@@ -1,0 +1,10 @@
+CHANGELOG
+
+1.7 LED builtin flip flop while connecting to wifi
+1.6 Logic play added to support input from touch sensor and mqtt callback to do on/off the lamp/relay
+1.5 Add command JSON to on/off the Lamp/Relay and command to ask status the led. Got bugs at JSON still use string then making buffer overflow and update the string to char[]. 
+1.4 Add command "ls" to list file in SPIFFS and "reset" to remove config.json
+1.3 Resolve bugs in JSON code which making server crash
+1.2 Re-structure code, read and publish data DHT each 5 sec
+1.1 Re-structure code to make troubleshoot easier and add MQTT and read DHT sensor function
+1.0 Create Wifi as Access point with aim give wifi credential (SSID and Passkey) and save it as config.json file.
