@@ -31,12 +31,13 @@ PubSubClient client(espClient);
 
 //Variables
 const char* ssid = "Nexus5";
-const char* password = "qwertyuiop";
+const char* password = "pass";
 
-const char* mqtt_server = "m12.cloudmqtt.com";
-uint16_t port = 13223;
-const char* username = "user1";
-const char* passmqtt = "1234";
+const char* mqtt_server = "mqtt.mydevices.com";
+uint16_t port = 1883;
+const char* clientId = "d503e240-90a3-11e7-b153-197ebdab87be";
+const char* username = "pass";
+const char* passmqtt = "695ccd307bb262c42460c8aa4a6e6c88dacfed9f";
 
 char strObj[256];
 
@@ -45,8 +46,12 @@ char msg[50];
 int value = 0;
 
 int chk;
-float hum;  //Stores humidity value
+float humi;  //Stores humidity value
 float temp; //Stores temperature value
+char humi_str[15];//= "hvac_hum,p=";
+char temp_str[15];//= "temp,c=";
+char tempFtoC[5];
+char humiFtoC[5];
 
 void create_json(float humi, float temp){	
 	StaticJsonBuffer<200> jsonBuffer;
@@ -116,16 +121,13 @@ void reconnect() {
   // Loop until we're reconnected
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
-    // Create a random client ID
-    String clientId = "ESP8266Client-";
-    clientId += String(random(0xffff), HEX);
     // Attempt to connect
-    if (client.connect(clientId.c_str(), username, passmqtt)) {
+    if (client.connect(clientId, username, passmqtt)) {
       Serial.println("connected");
       // Once connected, publish an announcement...
-      client.publish("outTopic", "hello world");
+      // client.publish("outTopic", "hello world");
       // ... and resubscribe
-      client.subscribe("inTopic");
+      // client.subscribe("inTopic");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
@@ -168,16 +170,16 @@ void loop() {
 	client.loop();
 
 	long now = millis();
-	if (now - lastMsg > 2000) {
+	if (now - lastMsg > 10000) { // refresh 10 detik
 		lastMsg = now;
 
 	    //Read data and store it to variables hum and temp
-	    hum = dht.readHumidity();
+	    humi = dht.readHumidity();
 	    temp= dht.readTemperature();
 	    
 	    //Print temp and humidity values to serial monitor
 	    Serial.print("Humidity: ");
-	    Serial.print(hum);
+	    Serial.print(humi);
 	    Serial.print(" %, Temp: ");
 	    Serial.print(temp);
 	    Serial.println(" Celsius");
@@ -188,13 +190,26 @@ void loop() {
 	    lcd.print("C");
 	    lcd.setCursor(0,1);
 	    lcd.print("Lembab: ");
-	    lcd.print(hum);
+	    lcd.print(humi);
 	    lcd.print("%");
 
 		Serial.print("Publish message: ");
-		create_json(hum,temp);
-		Serial.println(strObj);
-		client.publish("root/user1", strObj);
+		// create_json(humi,temp);
+		// Serial.println(strObj);
+		// client.publish("root/user1", strObj);
+    dtostrf(temp,3,2,tempFtoC);
+    dtostrf(humi,3,2,humiFtoC);
+    // strcat(temp_str,tempFtoC);
+    // strcat(humi_str,humiFtoC);
+    sprintf(temp_str,"temp,c=%s",tempFtoC);
+    sprintf(humi_str,"hvac_hum,p=%s",humiFtoC);
+    Serial.print("Publish:\t");
+    Serial.println(temp_str);
+    Serial.print("Publish:\t");
+    Serial.println(humi_str);
+    client.publish("v1/bf542b40-35d5-11e7-bc16-a7db64aef1f1/things/d503e240-90a3-11e7-b153-197ebdab87be/data/1", temp_str);
+    client.publish("v1/bf542b40-35d5-11e7-bc16-a7db64aef1f1/things/d503e240-90a3-11e7-b153-197ebdab87be/data/2", humi_str);
+
 	}
 
 
